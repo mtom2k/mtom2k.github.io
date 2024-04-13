@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link href='https://fonts.googleapis.com/css?family=Scheherazade New' rel='stylesheet'>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran Verse Generator</title>
+    
+    <!-- <div class="web-header">
+        <a id="webheader-el" href="index.html">Quran Verse Generator</a>
+    </div> -->
+
+</head>
+
+<body>
+
+    <div class="quranverse-info-container">
+        <p id="quranverse-full">Qur'an 1:1</p>
+    </div>
+
+    <div class="quranverse-info-container">
+        <p class=quranverse-info id="quranverse-juzNum">Juz 1 </p>
+        <p class=quranverse-info>-</p>
+        <p class=quranverse-info id="quranverse-surahNum">Surah 1 </p>
+        <p class=quranverse-info>-</p>
+        <p class=quranverse-info id="quranverse-verseNum">Verse 1</p>
+    </div>
+
+    <div class="btn-container">
+        <button onclick="generateNewVerse()" class="btn-form" id="btn-generator">Generate Random Verse</button>
+        <button onclick="visitQuranComWebsite()" class="btn-form" id="btn-visitqurancom">View on Quran.com</button>
+    </div>
+
+    <div>
+        <p id="quranverse-arabic">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+        <p id="quranverse-english">In the Name of God, the Merciful, the Beneficent. </p>
+    </div>
+
+
+
+    <!-- <div class="web-footer">
+        <p class="footer-content">BreakPoint<br>Made by Muhannad Tomeh</p>
+    </div> -->
+
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>

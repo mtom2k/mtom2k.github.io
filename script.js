@@ -18,7 +18,7 @@ function generateNewVerse() {
 
     verseNumber = Math.floor(Math.random() * 6236) //generates random num between 1-6236
 
-    fetch("http://api.alquran.cloud/v1/ayah/" + verseNumber + "/editions/quran-uthmani,en.asad")
+    fetch("https://api.alquran.cloud/v1/ayah/" + verseNumber + "/editions/quran-uthmani,en.asad")
     .then(response => response.json())
     .then(jsonData => {
         juzNumber = jsonData.data[0].juz //pulls Juz' number (1-30)
